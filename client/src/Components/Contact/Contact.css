@@ -1,0 +1,144 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 4rem 10rem;
+}
+
+.contact-title {
+    position: relative;
+
+}
+
+.contact-title h2 {
+    padding: 0 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.contact-title img {
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    z-index: -1;
+    width: 6rem;
+}
+
+.contact-section {
+    display: flex;
+    gap: 4rem;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-left h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(270deg, #4274ba 40%, #F9A11B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-left p {
+    max-width: 20rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+}
+
+.contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5rem
+}
+
+.contact-right {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contact-right input {
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    padding: .5rem;
+    border-radius: .2rem;
+    font-family: Outfit, sans-serif;
+    font-size: 1rem;
+    color: #000;
+}
+
+.contact-right textarea {
+    width: 20rem;
+    padding: .5rem;
+    border: none;
+    border-radius: .2rem;
+    font-family: Outfit, sans-serif;
+    font-size: 1rem;
+    color: #000;
+}
+
+.contact-submit {
+    border: none;
+    color: #fff;
+    border-radius: 2rem;
+    background: linear-gradient(270deg, #4274ba -5.09%, #F9A11B 106.28%);
+    font-size: 1rem;
+    padding: 1rem 2rem;
+
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.contact-submit:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.spacer {
+    margin-top: .5rem;
+}
+
+.error {
+    color: red;
+}
+
+.formSuccess {
+    background: #1f9504;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    width: auto;
+}
+
+@media (max-width: 668px) {
+    .contact {
+        margin: 4rem 8rem;
+    }
+
+    .contact-section {
+        flex-direction: column;
+
+    }
+}

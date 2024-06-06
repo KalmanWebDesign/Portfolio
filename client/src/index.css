@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-family: 'outfit';
+  max-width: 100rem;
+  margin: auto;
+}
+
+html {
+  font-size: 100%;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
+}
